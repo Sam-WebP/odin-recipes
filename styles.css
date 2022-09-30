@@ -1,0 +1,16 @@
+h1.main-page {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 500%;
+}
+
+ul.main-page {
+    text-align: center;
+    font-weight: 800;
+    font-size: 101%;
+}
+
+.main-page.images {
+    width: 33%;
+}
