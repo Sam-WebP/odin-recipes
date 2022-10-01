@@ -1,5 +1,5 @@
 h1.main-page {
-    color: white;
+    color: black;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 500%;
@@ -15,16 +15,28 @@ ul.main-page {
     width: 33%;
 }
 
-.main-page.links-list a{
-    background-color: #b15813;
+.main-page.flex-container {
+    background-color: gray;
     color: #fff;
     text-decoration: none;
-    padding: 1em 2em;
-    display: inline-block;
-    margin: 4px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
 }
 
-.main-page.links-list a:hover {
-    background-color: rgb(66, 28, 40);
-    color: #fff;
+.main-page.flex-container a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 15px;
+    border: white solid 3px;
+    font-size: large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-page.flex-container a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
