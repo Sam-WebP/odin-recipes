@@ -24,7 +24,50 @@ ul.main-page {
     margin-bottom: 5px;
 }
 
-.main-page.flex-container a {
+.main-page.flex-container a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: black solid 6px;
+    font-size: x-large;
+  }
+
+.flex-one a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  margin: 15px;
+  border: white solid 3px;
+  font-size: large;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.flex-two a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 15px;
+    border: white solid 3px;
+    font-size: large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  }
+
+  .flex-three a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    margin: 15px;
+    border: white solid 3px;
+    font-size: large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  }
+
+/*.main-page.flex-container a {
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -35,8 +78,4 @@ ul.main-page {
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.main-page.flex-container a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
+*/
