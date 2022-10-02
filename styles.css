@@ -1,3 +1,4 @@
+
 h1.main-page {
     color: black;
     text-align: center;
@@ -5,14 +6,17 @@ h1.main-page {
     font-size: 500%;
 }
 
-ul.main-page {
-    text-align: center;
-    font-weight: 800;
-    font-size: 101%;
+#flex-container-two img, div{
+  padding: .4rem;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.main-page.images {
-    width: 33%;
+#flex-container-two img {
+  width: 10px;
+  padding: .4rem;
+  flex: 1 1 auto;
 }
 
 .main-page.flex-container {
